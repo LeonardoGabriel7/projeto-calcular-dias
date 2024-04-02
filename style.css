@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.856);
+    display: flex; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.containerInteiro {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    height: 350px;
+    width: 320px;
+    background-color: blue;
+    border-radius: 20px;
+
+}
+
+
+h1.titulo {
+    color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 25px;
+}
+
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+div.input {
+    margin: 0 auto;
+    background-color: rgb(255, 17, 0);
+    width: 290px;
+    height: 95px;
+    border-radius: 10px;
+}
+
+div.input2 {
+    margin: 0 auto;
+    background-color: rgb(255, 17, 0);
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+p#diasCalculados {
+    margin-top: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+
+
+
+/* STYLE DA PAGINA 1: */
+
+.containerInteiro2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    height: 400px;
+    width: 320px;
+    background-color: blue;
+    border-radius: 20px;
+
+}
+
+
+div.texto{
+    margin: 0 auto;
+    background-color: rgb(255, 17, 0);
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+h1.titulo2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+p.paragrafo{
+    padding-top: 25px;
+    color: white;
+}
+
+button.botao{
+    margin-top: 17px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(240, 240, 241);
+    background-color: green;
+    color: white;
+}
+
+.botao:hover{
+    transform: scale(1.1);
+}
