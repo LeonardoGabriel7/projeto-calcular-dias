@@ -25,9 +25,12 @@ function calcularDiasParaAniversario() {
   } else if (diasParaAniversario === 0) {
     let resultado = document.getElementById('diasCalculados');
     resultado.textContent = "Essa data é hoje!";
-  } else {
+  } else if (diasParaAniversario < 0) {
     let resultado = document.getElementById('diasCalculados');
     resultado.textContent = "Já se passaram " + Math.abs(diasParaAniversario) + " dias dessa data";
+  } else{
+    let resultado = document.getElementById('diasCalculados');
+    resultado.textContent = "Coloque a data para calcular";
   }
 }
 
