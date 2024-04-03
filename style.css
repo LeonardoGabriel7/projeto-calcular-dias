@@ -83,7 +83,7 @@ div.texto{
     margin: 0 auto;
     background-color: rgb(255, 17, 0);
     width: 250px;
-    height: 200px;
+    height: 250px;
     border-radius: 20px;
 }
 
@@ -99,7 +99,7 @@ p.paragrafo{
 }
 
 button.botao{
-    margin-top: 17px;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 20px;
     border-color: rgb(240, 240, 241);
